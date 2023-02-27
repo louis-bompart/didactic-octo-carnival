@@ -9,6 +9,8 @@ on:
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   jambon:
+    env:
+      BRANCH_NAME: main
     runs-on: ubuntu-latest
     steps:
       - name: Poke the bear
