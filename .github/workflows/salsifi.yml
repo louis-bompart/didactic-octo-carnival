@@ -1,0 +1,14 @@
+# This is a basic workflow to help you get started with Actions
+
+name: AAA
+
+# Controls when the workflow will run
+on:
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  patate:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "hello mom"
